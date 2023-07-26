@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">CodeNames</string>
+    <string name="first_message">Codenames App</string>
+    <string name="word">слово</string>
+    <string name="choose_mode">Выберите режим игры</string>
+    <string name="game_online">Игра онлайн</string>
+    <string name="game_with_friends">Игра с друзьями</string>
+    <string name="type_setting">Способ игры</string>
+    <string name="two_devices_type">Игра на двух устройствах</string>
+    <string name="many_devices_type">Много устройств</string>
+    <string name="vote_type">Режим выбора слов</string>
+    <string name="anyone_can_click">Все игроки могут выбирать слова</string>
+    <string name="all_vote">Выбор слова путем командного голосования</string>
+    <string name="one_can_click">Выбор слова определенным игроком</string>
+    <string name="random_player_click">Выбор слова случайно выбранным игроком</string>
+    <string name="team_selection">Режим выбора команды</string>
+    <string name="free_team_choose">Свободный выбор команды</string>
+    <string name="random_team_selection">Случайное распределение по командам</string>
+    <string name="creator_distibutes_team">Создатель комнаты распределяет игроков по командам</string>
+    <string name="create_game">Создать игру</string>
+    <string name="join">Присоединиться</string>
+    <string name="input_code">Введите код</string>
+    <string name="enter_room_code">Введите код комнаты</string>
+    <string name="current_clue">Текущая подсказка:</string>
+    <string name="default_winner_text">Победила команда ...</string>
+    <string name="code_to_join_message">Код для присоединения к игре:</string>
+    <string name="players_count_in_lobby">Игроков в лобби:</string>
+    <string name="autorun_game">Автозапуск игры</string>
+    <string name="usual_player">Обычный игрок</string>
+    <string name="leader">Лидер команды (отвечающий)</string>
+    <string name="captain">Капитан</string>
+    <string name="game_list">СПИСОК ИГР</string>
+    <string name="max_players_count_string">Максимальное количество игроков</string>
+    <string name="warning">Предупреждение</string>
+    <string name="less_players_than_in_game_settings">На данный момент к игре присоединилось меньше игроков, чем указано в настройках. Если вы желаете начать игру, нажмите на галочку. Если нет, отмените начало игры, нажав на крестик.</string>
+</resources>

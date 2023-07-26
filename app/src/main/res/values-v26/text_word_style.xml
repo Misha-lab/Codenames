@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="word_table_style">
+        <item name="android:background">@drawable/card</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingTop">25dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:text">@string/word</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">43dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:autoSizeMaxTextSize">13sp</item>
+        <item name="android:autoSizeMinTextSize">6sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+    </style>
+
+    <style name="word_table_style_xlarge">
+        <item name="android:background">@drawable/card</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingTop">45dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:text">@string/word</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">130dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:autoSizeMaxTextSize">20sp</item>
+        <item name="android:autoSizeMinTextSize">9sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+    </style>
+
+    <style name="autoresize_text_from12_to30">
+        <item name="android:autoSizeMaxTextSize">30sp</item>
+        <item name="android:autoSizeMinTextSize">12sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+    </style>
+
+    <style name="autoresize_text_from6_to15">
+        <item name="android:autoSizeMaxTextSize">15sp</item>
+        <item name="android:autoSizeMinTextSize">6sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+    </style>
+
+    <style name="autoresize_text_from9_to20">
+        <item name="android:autoSizeMaxTextSize">20sp</item>
+        <item name="android:autoSizeMinTextSize">9sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+    </style>
+
+    <style name="player_tablet_text">
+        <item name="android:autoSizeMaxTextSize">20sp</item>
+        <item name="android:autoSizeMinTextSize">8sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="fontFamily">@font/vag_world</item>
+    </style>
+
+    <style name="player_tablet_text_xlarge">
+        <item name="android:autoSizeMaxTextSize">30sp</item>
+        <item name="android:autoSizeMinTextSize">15sp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="fontFamily">@font/vag_world</item>
+    </style>
+</resources>

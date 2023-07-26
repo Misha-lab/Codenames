@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lobby_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    tools:context=".LobbyActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:background="@color/white60"
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp">
+
+            <TextView
+                android:id="@+id/code_to_join"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/vag_world"
+                android:text="@string/code_to_join_message"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="30dp"
+                    android:orientation="vertical">
+
+                    <include
+                        android:id="@+id/player0"
+                        layout="@layout/player_info_layout" />
+
+                    <include
+                        android:id="@+id/player2"
+                        layout="@layout/player_info_layout" />
+
+                    <include
+                        android:id="@+id/player4"
+                        layout="@layout/player_info_layout" />
+
+                    <include
+                        android:id="@+id/player6"
+                        layout="@layout/player_info_layout" />
+
+                    <include
+                        android:id="@+id/player8"
+                        layout="@layout/player_info_layout" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include
+                        android:id="@+id/player1"
+                        layout="@layout/player_info_layout" />
+
+                    <include
+                        android:id="@+id/player3"
+                        layout="@layout/player_info_layout" />
+
+                    <include
+                        android:id="@+id/player5"
+                        layout="@layout/player_info_layout" />
+
+                    <include
+                        android:id="@+id/player7"
+                        layout="@layout/player_info_layout" />
+
+                    <include
+                        android:id="@+id/player9"
+                        layout="@layout/player_info_layout" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/vag_world"
+                android:padding="5dp"
+                android:text="Выберите роль!"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/captain_button_in_lobby"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blue_tablet1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/vag_world"
+                    android:paddingTop="5dp"
+                    android:text="@string/captain"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="19sp" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/captain_sign" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/leader_button_in_lobby"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blue_tablet1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/vag_world"
+                    android:lineSpacingMultiplier="0.6"
+                    android:paddingTop="5dp"
+                    android:text="@string/leader"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/leader_sign" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/usual_player_button_in_lobby"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:background="@drawable/blue_tablet1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/vag_world"
+                    android:lineSpacingMultiplier="0.4"
+                    android:text="@string/usual_player"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/usual_player_sign" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/players_count_in_lobby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/blackCB"
+                android:fontFamily="@font/vag_world"
+                android:lineSpacingMultiplier="0.5"
+                android:text="@string/players_count_in_lobby"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <Switch
+                android:id="@+id/autorun_game_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:fontFamily="@font/vag_world"
+                android:lineSpacingMultiplier="0.5"
+                android:padding="5dp"
+                android:text="@string/autorun_game"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/play_begin_button"
+                android:layout_width="125dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/red_button"
+                android:fontFamily="@font/vag_world"
+                android:lineSpacingMultiplier="0.5"
+                android:padding="2dp"
+                android:text="Начать игру"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/font2"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

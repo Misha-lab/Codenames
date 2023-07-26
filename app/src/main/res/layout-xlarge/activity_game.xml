@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wooden_background_brown1"
+    tools:context=".GameActivity"
+    tools:ignore="ExtraText">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white60">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/back_button_in_game_activity"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/back_button_wood" />
+
+                    <ImageView
+                        android:id="@+id/show_game_settings"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/settings_button" />
+
+                    <include
+                        android:id="@+id/this_player"
+                        layout="@layout/player_info_layout"
+                        android:layout_width="320dp"
+                        android:layout_height="85dp"
+                        android:layout_marginVertical="10dp"
+                        android:layout_marginStart="20dp" />
+
+                    <ImageView
+                        android:id="@+id/show_red_team_button"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/show_red_team" />
+
+                    <ImageView
+                        android:id="@+id/show_blue_team_button"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/show_blue_team" />
+
+                    <TextView
+                        android:id="@+id/message_to_player_in_game"
+                        style="@style/autoresize_text_from12_to30"
+                        android:layout_width="300dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="20dp"
+                        android:fontFamily="@font/vag_world"
+                        android:lineSpacingMultiplier="0.5"
+                        android:text="Сейчас ходит лидер вашей команды (NICKNAME)"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="30sp" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/field"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/current_clue"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="10dp"
+                            android:background="@color/blackCB"
+                            android:fontFamily="@font/font2"
+                            android:text="@string/current_clue"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="22sp" />
+
+                        <LinearLayout
+                            android:id="@+id/line1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal">
+
+                            <include
+                                android:id="@+id/word00"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word01"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word02"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word03"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word04"
+                                layout="@layout/card_view"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/line2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal">
+
+                            <include
+                                android:id="@+id/word10"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word11"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word12"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word13"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word14"
+                                layout="@layout/card_view"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/line3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal">
+
+                            <include
+                                android:id="@+id/word20"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word21"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word22"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word23"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word24"
+                                layout="@layout/card_view"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/line4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal">
+
+                            <include
+                                android:id="@+id/word30"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word31"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word32"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word33"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word34"
+                                layout="@layout/card_view"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/line5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <include
+                                android:id="@+id/word40"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word41"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word42"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word43"
+                                layout="@layout/card_view"/>
+
+                            <include
+                                android:id="@+id/word44"
+                                layout="@layout/card_view"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/x_move_ball"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/red_team" />
+
+                        <LinearLayout
+                            android:id="@+id/captain_panel_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/templateBoard"
+                                android:layout_width="200dp"
+                                android:layout_height="185dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="40dp"
+                                android:src="@drawable/template" />
+
+                            <TextView
+                                android:layout_width="210dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:background="@color/blackCB"
+                                android:fontFamily="@font/font2"
+                                android:padding="5dp"
+                                android:text="Введите слово-подсказку и количество слов"
+                                android:textAlignment="center"
+                                android:textColor="@color/green"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <EditText
+                                    android:id="@+id/clue_input"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="5dp"
+                                    android:background="@drawable/edit_text_style"
+                                    android:fontFamily="@font/font2"
+                                    android:hint="слово-подсказка"
+                                    android:paddingHorizontal="10dp"
+                                    android:paddingVertical="5dp"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <EditText
+                                    android:id="@+id/count_of_words_input"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="5dp"
+                                    android:background="@drawable/edit_text_style"
+                                    android:fontFamily="@font/font2"
+                                    android:hint="1"
+                                    android:inputType="number"
+                                    android:maxLength="1"
+                                    android:paddingHorizontal="10dp"
+                                    android:paddingVertical="5dp"
+                                    android:textColor="@color/black"
+                                    android:textSize="16sp" />
+
+                                <ImageView
+                                    android:id="@+id/send_clue"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/send"
+                                    android:padding="5dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

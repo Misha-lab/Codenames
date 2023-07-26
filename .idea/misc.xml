@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1895" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/drawable/chat_background.xml" value="0.1" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/drawable/edit_text_style.xml" value="0.2045" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/drawable/icon1.xml" value="0.2035" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/drawable/logo.xml" value="0.12" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/drawable/shape_corners.xml" value="0.1" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/drawable/shape_text.xml" value="0.12" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/drawable/template.xml" value="0.2" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/drawable/word_table_style.xml" value="0.2025" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/font/abril_fatface.xml" value="0.17580645161290323" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout-large/activity_game.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout-large/card_view.xml" value="0.14765625" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout-large/player_info_layout.xml" value="0.1845703125" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout-large/winner_layout.xml" value="0.1845703125" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout-normal/activity_game.xml" value="0.22992700729927007" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout-normal/card_view.xml" value="0.1433990895295903" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout-normal/player_info_layout.xml" value="0.33" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout-normal/winner_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout-small/activity_game.xml" value="0.6428571428571429" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout-small/card_view.xml" value="0.7322175732217573" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout-small/player_info_layout.xml" value="0.7322175732217573" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout-small/winner_layout.xml" value="0.7322175732217573" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout-v28/activity_lobby.xml" value="0.196875" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout-xlarge/activity_game.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout-xlarge/card_view.xml" value="0.75" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout-xlarge/player_info_layout.xml" value="0.5027472527472527" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout-xlarge/winner_layout.xml" value="0.1845703125" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_game.xml" value="0.2953125" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_game_list.xml" value="0.25" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_game_mode.xml" value="0.22" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_game_settings.xml" value="0.25" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_lobby.xml" value="0.18" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout/card_view.xml" value="1.25" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout/chat_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout/dialog_confirm.xml" value="0.22" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout/enter_code_layout.xml" value="0.16" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout/game_in_gamelist.xml" value="0.5" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout/message_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout/player_in_lobby_layout.xml" value="0.33" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout/player_info_layout.xml" value="0.33" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout/players_in_team.xml" value="0.22" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout/show_game_settings_layout.xml" value="0.22" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout/temp_icon.xml" value="1.0" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/layout/winner_layout.xml" value="0.1433990895295903" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1895" />
+        <entry key="..\:/Users/Misha/AndroidStudioProjects/MyApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1895" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game_settings_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wooden_background_square2"
+    tools:context=".GameSettingsActivity">
+
+    <ImageView
+        android:id="@+id/back_button_in_settings_activity"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/back_button_wood"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="20dp"
+
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/type_settings_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/type_setting_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/black60"
+                        android:fontFamily="@font/font1"
+                        android:text="@string/type_setting"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginEnd="10dp"
+                            android:background="@drawable/info_button">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/two_devices_text"
+                            android:layout_width="180dp"
+                            android:layout_height="72dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/wooden_tablet"
+                            android:fontFamily="@font/font1"
+                            android:gravity="center_horizontal"
+                            android:paddingHorizontal="30dp"
+                            android:paddingTop="14dp"
+                            android:text="@string/two_devices_type"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginEnd="10dp"
+                            android:background="@drawable/info_button">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/many_devices_text"
+                            android:layout_width="180dp"
+                            android:layout_height="72dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/wooden_tablet"
+                            android:fontFamily="@font/font1"
+                            android:gravity="center_horizontal"
+                            android:paddingHorizontal="30dp"
+                            android:paddingTop="10dp"
+                            android:text="@string/many_devices_type"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/players_count_layout"
+                    android:layout_width="220dp"
+                    android:layout_height="110dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@color/black60"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/players_count_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/black60"
+                        android:fontFamily="@font/font1"
+                        android:padding="5dp"
+                        android:text="Выберите количество игроков (от 4 до 10)"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/players_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:fontFamily="@font/font2"
+                            android:textColor="@color/white"
+                            android:textSize="40sp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/up_arrow"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_marginBottom="5dp"
+                                android:background="@drawable/up_arrow" />
+
+                            <ImageView
+                                android:id="@+id/down_arrow"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:background="@drawable/down_arrow" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/vote_type_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/vote_type_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:padding="5dp"
+                android:background="@color/black60"
+                android:fontFamily="@font/font1"
+                android:text="@string/vote_type"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/info_button">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/anyone_can_click_text"
+                    android:layout_width="125dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/wooden_tablet"
+                    android:fontFamily="@font/font1"
+                    android:gravity="center_horizontal"
+                    android:paddingHorizontal="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/anyone_can_click"
+                    android:textColor="@color/white"
+                    android:textSize="9sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/info_button">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/team_vote_text"
+                    android:layout_width="125dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/wooden_tablet"
+                    android:fontFamily="@font/font1"
+                    android:gravity="center_horizontal"
+                    android:paddingHorizontal="10dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/all_vote"
+                    android:textColor="@color/white"
+                    android:textSize="9sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/info_button">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/one_player_click_text"
+                    android:layout_width="125dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/wooden_tablet"
+                    android:fontFamily="@font/font1"
+                    android:gravity="center_horizontal"
+                    android:paddingHorizontal="10dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/one_can_click"
+                    android:textColor="@color/white"
+                    android:textSize="9sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/info_button">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/random_player_click_text"
+                    android:layout_width="125dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/wooden_tablet"
+                    android:fontFamily="@font/font1"
+                    android:gravity="center_horizontal"
+                    android:paddingHorizontal="10dp"
+                    android:paddingTop="8dp"
+                    android:text="@string/random_player_click"
+                    android:textColor="@color/white"
+                    android:textSize="8sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/team_selection_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/team_selection_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:paddingHorizontal="5dp"
+                    android:background="@color/black60"
+                    android:fontFamily="@font/font1"
+                    android:text="@string/team_selection"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/info_button">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/free_team_choose_text"
+                        android:layout_width="125dp"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/wooden_tablet"
+                        android:fontFamily="@font/font1"
+                        android:gravity="center_horizontal"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/free_team_choose"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/info_button">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/random_team_selection_text"
+                        android:layout_width="125dp"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/wooden_tablet"
+                        android:fontFamily="@font/font1"
+                        android:gravity="center_horizontal"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="5dp"
+                        android:text="@string/random_team_selection"
+                        android:textColor="@color/white"
+                        android:textSize="9sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/info_button">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/creator_distributes_team_text"
+                        android:layout_width="125dp"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/wooden_tablet"
+                        android:fontFamily="@font/font1"
+                        android:gravity="center_horizontal"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/creator_distibutes_team"
+                        android:textColor="@color/white"
+                        android:textSize="7sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/create_game"
+                android:layout_width="125dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/blue_tablet1"
+                android:fontFamily="@font/font1"
+                android:paddingTop="12dp"
+                android:text="@string/create_game"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/show_game_settings_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/wooden_background_brown5">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/white60"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/game_code_in_settings_layout"
+            style="@style/autoresize_text_from12_to30"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/vag_world"
+            android:lineSpacingMultiplier="0.5"
+            android:text="@string/code_to_join_message"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/players_count_in_settings_layout"
+            style="@style/autoresize_text_from12_to30"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/vag_world"
+            android:lineSpacingMultiplier="0.5"
+            android:text="@string/max_players_count_string"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/word_selection_type_in_settings_layout"
+            style="@style/autoresize_text_from12_to30"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/vag_world"
+            android:lineSpacingMultiplier="0.5"
+            android:text="@string/vote_type"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/team_selection_type_in_settings_layout"
+            style="@style/autoresize_text_from12_to30"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/vag_world"
+            android:lineSpacingMultiplier="0.5"
+            android:text="@string/team_selection"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp">
+
+    <ImageView
+        android:id="@+id/focus"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@color/black95"
+        android:visibility="invisible"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="180dp"
+        android:layout_height="46dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/tablet_wood" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/team_button">
+
+            <ImageView
+                android:id="@+id/team_ball_in_lobby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gray" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/player_name"
+                style="@style/player_tablet_text"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+
+            <ImageView
+                android:id="@+id/player_role"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/black95"
+                android:foreground="@drawable/creator_sign" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
